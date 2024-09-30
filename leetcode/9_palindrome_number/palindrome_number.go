@@ -6,10 +6,10 @@ func isPalindrome(x int) bool {
 	}
 
 	var reversed = 0
-	var temp_x = x;
-	for temp_x != 0 {
-		reversed = reversed * 10 + temp_x % 10
-		temp_x /= 10
+	var tempX = x;
+	for tempX != 0 {
+		reversed = reversed * 10 + tempX % 10
+		tempX /= 10
 	}
 
 	return reversed == x
