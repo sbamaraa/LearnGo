@@ -1,4 +1,4 @@
-package reverse
+package reverse_integer
 
 import "testing"
 
